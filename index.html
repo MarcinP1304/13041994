@@ -4,14 +4,15 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://unpkg.com/@picocss/pico@1.*/css/pico.min.css">
-    <script src="https://unpkg.com/htmx.org@1.8.5"></script>
+    <script src="https://unpkg.com/htmx.org@1.8.5" integrity="sha384-7aHh9lqPYGYZ7sTHvzP1t3BAfLhYSTy9ArHdP3Xsr9/3TlGurYgcPBoFmXX2TX/w" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/hyperscript.org@0.9.7"></script>
     <title>Hello, world!</title>
   </head>
   <body>
     <main class="container">
       <h1>Hello, champ!</h1>
-      <button hx-post="clicked.html" hx-trigger="click"">
-        Click Me
+      <button script="on click go to url ./clicked.html">
+        Check new page ;-)
       </button>
     </main>
   </body>
